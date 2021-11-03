@@ -8,11 +8,17 @@
 - [x] Cadastro de cliente
 - [x] Cadastro de produtos
 
-### Listas
+### Lista
 
 - Cadastro de usuário
 - Cadastro de cliente
 - Cadastro de produtos
+
+### Lista ordenada
+
+1. Primeiro item da lista
+     - Primeiro item da lista aninhada
+       - Segundo item da lista aninhada
 
 ### Comandos
 ```
