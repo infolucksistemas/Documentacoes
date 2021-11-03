@@ -4,7 +4,7 @@ Para realizar a conexão com a máquina é necessário primeiramente realizar a 
 
 Já com o Bitvise instalado faremos o Log in na máquina:
 
-## Configuração Bitvise 🔧
+## 🔨 - Configuração Bitvise
 
 ### - Aba Login
 
@@ -26,11 +26,11 @@ Já com o Bitvise instalado faremos o Log in na máquina:
 
 =============================
 
-## Utilização do Terminal 💻
+## 💻 - Utilização do Terminal 
 
 Para acessar o terminal é precisa clicar em **"New Terminal Console"**, nele faremos todas as configurações e instalações necessárias para a utilização da máquina.
 
-### Ajuste do Timezone ⏰
+### ⏰ - Ajuste do Timezone 
 
 Para ajustar o timezone digite no terminal:
 ```
@@ -49,7 +49,7 @@ date -u
 ```
 "Date" trará o timezone que foi setado e "date -u" o timezone internacional.
 
-### Disabilitar Firewall ⚙
+### ⚙ - Disabilitar Firewall 
 
 ```
 sudo ufw disable
