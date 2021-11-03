@@ -11,7 +11,7 @@
 
 - [x] Cadastro de usuário
 - [x] Cadastro de cliente
-- [x] Cadastro de produtos
+- [ ] Cadastro de produtos
 
 ### Lista
 
