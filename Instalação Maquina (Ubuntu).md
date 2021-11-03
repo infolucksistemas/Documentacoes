@@ -6,4 +6,4 @@
 
 - [x] Cadastro de usuário
 - [x] Cadastro de cliente
-- [ ] Cadastro de produtos
+- [x] Cadastro de produtos
