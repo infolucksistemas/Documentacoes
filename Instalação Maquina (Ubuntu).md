@@ -1,6 +1,11 @@
 # Configurações Gerais 
 
+### Links
 
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ### Lista Tarefa
 
@@ -19,7 +24,6 @@
 1. Primeiro item da lista
      - Primeiro item da lista aninhada
        - Segundo item da lista aninhada
-          - Terceiro item da lista aninhada
 
 ### Comandos
 ```
