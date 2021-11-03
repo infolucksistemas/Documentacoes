@@ -19,6 +19,7 @@
 1. Primeiro item da lista
      - Primeiro item da lista aninhada
        - Segundo item da lista aninhada
+          - Terceiro item da lista aninhada
 
 ### Comandos
 ```
