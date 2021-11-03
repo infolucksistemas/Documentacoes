@@ -8,6 +8,11 @@
 - [x] Cadastro de cliente
 - [x] Cadastro de produtos
 
+### Listas
+
+- Cadastro de usuário
+- Cadastro de cliente
+- Cadastro de produtos
 
 ### Comandos
 ```
