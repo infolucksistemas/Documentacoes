@@ -27,6 +27,7 @@ Já com o Bitvise instalado faremos o Log in na máquina:
 ## **💻 - Utilização do Terminal**
 
 Para acessar o terminal é precisa clicar em **"New Terminal Console"**, nele faremos todas as configurações e instalações necessárias para a utilização da máquina.
+![Acessar terminal](acess_terminal.png)
 
 ### Ajuste do Timezone ⏰
 
