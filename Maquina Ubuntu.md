@@ -81,7 +81,7 @@ sudo a2enmod php7.4
 **(Opcional)** É possível ajustar algumas configurações do PHP, como habilitar a exibição de log de erros, aumentar o limite de uso de RAM, o tempo de execução, o tempo de sessão, e definir limites de upload.
 
 ```
-echo "" >> /etc/php/7.2/apache2/php.ini
+echo "" >> /etc/php/7.4/apache2/php.ini
 echo "error_log = /tmp/php_errors.log" >> /etc/php/7.2/apache2/php.ini
 echo "display_errors = On"             >> /etc/php/7.2/apache2/php.ini
 echo "memory_limit = 256M"             >> /etc/php/7.2/apache2/php.ini
