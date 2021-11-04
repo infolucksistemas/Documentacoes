@@ -98,7 +98,11 @@ Quando tudo estiver configurado, restarte o apache:
 service apache2 restart
 ```
 
-### Instalação Postgres 🛠
+### Configuração do Apache ⚙
+
+Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta **/var/www/html** usando o SFTP.
+
+### Instalação do Postgres 🛠
 
 Para instalarmos o Postgres13 executaremos os seguintes comandos:
 ```
@@ -108,7 +112,7 @@ sudo apt-get update
 sudo apt-get -y install postgresql-13
 ```
 
-### Configurar o Postgres ⚙
+### Configuração do Postgres ⚙
 Primeiramente setaremos permissão para editar o arquivo pg_hba.conf com o seguinte comando:
 ```
  sudo chown -R $USER:$USER /etc/postgresql/13/main
