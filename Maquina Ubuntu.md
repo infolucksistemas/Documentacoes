@@ -2,6 +2,7 @@
 - [Conexão com a Maquina](#-conexão-com-a-máquina)
 - [Configuração Bitvise](#---configuração-bitvise)
 - [Utilização do Terminal](#---utilização-do-terminal)
+- [Ajuste do Timezone](#ajuste-do-timezone-)
 
 ## 🖥 Conexão com a Máquina
 
