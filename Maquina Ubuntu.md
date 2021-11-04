@@ -107,3 +107,21 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-
 sudo apt-get update
 sudo apt-get -y install postgresql-13
 ```
+
+### Configurar o Postgres ⚙
+Primeiramente setaremos permissão para editar o arquivo pg_hba.conf com o seguinte comando:
+```
+ sudo chown -R $USER:$USER /etc/postgresql/13/main
+```
+
+Na tela de login do Bitviser acessaremos o SFTP clicando em "New SFTP window".
+Após abrir o SFTP acessaremos a pasta /etc/postgresql/13/main e editaremos o arquivo pg_hba.conf.
+
+> Altere 
+> # IPv4 local connections:
+> host    all             all             127.0.0.1/32            md5
+> Para:
+> # IPv4 local connections:
+> host    all             all             0.0.0.0/0            md5
+
+
