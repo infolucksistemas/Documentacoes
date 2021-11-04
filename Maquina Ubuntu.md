@@ -78,6 +78,9 @@ sudo a2enmod rewrite
 sudo a2enmod php7.4
 ```
 
+**(Opcional)** É possível ajustar algumas configurações do PHP, como habilitar a exibição de log de erros, aumentar o limite de uso de RAM, o tempo de execução, o tempo de sessão, e definir limites de upload.
+
+```
 echo "" >> /etc/php/7.2/apache2/php.ini
 echo "error_log = /tmp/php_errors.log" >> /etc/php/7.2/apache2/php.ini
 echo "display_errors = On"             >> /etc/php/7.2/apache2/php.ini
@@ -88,4 +91,4 @@ echo "file_uploads = On"               >> /etc/php/7.2/apache2/php.ini
 echo "post_max_size = 100M"            >> /etc/php/7.2/apache2/php.ini
 echo "upload_max_filesize = 100M"      >> /etc/php/7.2/apache2/php.ini
 echo "session.gc_maxlifetime = 14000"  >> /etc/php/7.2/apache2/php.ini
-
+```
