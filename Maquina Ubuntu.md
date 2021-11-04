@@ -27,6 +27,7 @@ Já com o Bitvise instalado faremos o Log in na máquina:
 ## **💻 - Utilização do Terminal**
 
 Para acessar o terminal é precisa clicar em **"New Terminal Console"**, nele faremos todas as configurações e instalações necessárias para a utilização da máquina.
+###
 
 ![Acessar terminal](acess_terminal_att.png)
 
@@ -103,7 +104,7 @@ service apache2 restart
 ### Configuração do Apache ⚙
 
 Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta **/var/www/html** usando o SFTP.
-![Config Html](sftp_html.png)
+![Config www](sftp_html.png)
 
 ### Instalação do Postgres 🛠
 
