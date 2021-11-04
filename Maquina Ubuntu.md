@@ -101,6 +101,7 @@ service apache2 restart
 ### Configuração do Apache ⚙
 
 Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta **/var/www/html** usando o SFTP.
+![Config Html](sftp_html.png)
 
 ### Instalação do Postgres 🛠
 
