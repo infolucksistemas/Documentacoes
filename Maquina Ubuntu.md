@@ -1,7 +1,7 @@
 ## Indice
 - [Conexão com a Maquina](#-conexão-com-a-máquina)
 - [Configuração Bitvise](#---configuração-bitvise)
-- [Configuração Bitvise](#---utilização-terminal)
+- [Utilização do Terminal](#---utilização-do-terminal)
 
 ## 🖥 Conexão com a Máquina
 
