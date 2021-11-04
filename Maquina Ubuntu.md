@@ -41,10 +41,6 @@ Agora basta configurar para America->São-Paulo.
 Para conferir se foi setado o fuso horário correto digite:
 ```
 date
-```
-E posteriormente:
-
-```
 date -u
 ```
 "Date" trará o timezone que foi setado e "date -u" o timezone internacional.
