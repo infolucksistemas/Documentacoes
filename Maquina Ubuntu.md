@@ -78,13 +78,13 @@ sudo a2enmod php7.4
 
 ```
 echo "" >> /etc/php/7.4/apache2/php.ini
-echo "error_log = /tmp/php_errors.log" >> /etc/php/7.2/apache2/php.ini
-echo "display_errors = On"             >> /etc/php/7.2/apache2/php.ini
-echo "memory_limit = 256M"             >> /etc/php/7.2/apache2/php.ini
-echo "max_execution_time = 120"        >> /etc/php/7.2/apache2/php.ini
-echo "error_reporting = E_ALL"         >> /etc/php/7.2/apache2/php.ini
-echo "file_uploads = On"               >> /etc/php/7.2/apache2/php.ini
-echo "post_max_size = 100M"            >> /etc/php/7.2/apache2/php.ini
-echo "upload_max_filesize = 100M"      >> /etc/php/7.2/apache2/php.ini
-echo "session.gc_maxlifetime = 14000"  >> /etc/php/7.2/apache2/php.ini
+echo "error_log = /tmp/php_errors.log" >> /etc/php/7.4/apache2/php.ini
+echo "display_errors = On"             >> /etc/php/7.4/apache2/php.ini
+echo "memory_limit = 256M"             >> /etc/php/7.4/apache2/php.ini
+echo "max_execution_time = 120"        >> /etc/php/7.4/apache2/php.ini
+echo "error_reporting = E_ALL"         >> /etc/php/7.4/apache2/php.ini
+echo "file_uploads = On"               >> /etc/php/7.4/apache2/php.ini
+echo "post_max_size = 100M"            >> /etc/php/7.4/apache2/php.ini
+echo "upload_max_filesize = 100M"      >> /etc/php/7.4/apache2/php.ini
+echo "session.gc_maxlifetime = 14000"  >> /etc/php/7.4/apache2/php.ini
 ```
