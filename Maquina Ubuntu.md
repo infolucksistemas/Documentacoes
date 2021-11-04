@@ -4,7 +4,7 @@ Para realizar a conexão com a máquina é necessário primeiramente realizar a 
 
 Já com o Bitvise instalado faremos o Log in na máquina:
 
-## 🔨 - Configuração Bitvise
+## **🔨 - Configuração Bitvise**
 
 ### - Aba Login
 
@@ -26,7 +26,7 @@ Já com o Bitvise instalado faremos o Log in na máquina:
 
 =============================
 
-## 💻 - Utilização do Terminal 
+## **💻 - Utilização do Terminal**
 
 Para acessar o terminal é precisa clicar em **"New Terminal Console"**, nele faremos todas as configurações e instalações necessárias para a utilização da máquina.
 
@@ -50,6 +50,8 @@ date -u
 "Date" trará o timezone que foi setado e "date -u" o timezone internacional.
 
 ### ⚙ - Disabilitar Firewall 
+
+Para que mais para frente na instalação do postgres e afins não precisemos abrir portas no firewall o desabilitaremos 
 
 ```
 sudo ufw disable
