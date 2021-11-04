@@ -87,6 +87,12 @@ echo "upload_max_filesize = 100M"      >> /etc/php/7.4/apache2/php.ini
 echo "session.gc_maxlifetime = 14000"  >> /etc/php/7.4/apache2/php.ini
 ```
 
+**(Recomendado)** Quando a aplicação entrar em produção, desligue a exibição de erros. Você pode também ser mais tolerante quanto ao nível de erros a ser reportado.
+```
+echo "display_errors = Off" >> php.ini
+echo "error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT & ~E_NOTICE" >> php.ini
+```
+
 Quando tudo estiver configurado, restarte o apache:
 ```
 service apache2 restart
