@@ -24,8 +24,6 @@ Já com o Bitvise instalado faremos o Log in na máquina:
 - Method = password
 - Password = root
 
-=============================
-
 ## **💻 - Utilização do Terminal**
 
 Para acessar o terminal é precisa clicar em **"New Terminal Console"**, nele faremos todas as configurações e instalações necessárias para a utilização da máquina.
