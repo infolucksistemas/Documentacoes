@@ -128,9 +128,11 @@ Agora faremos alteração no arquivo postgresql.conf.
 
 ### Altere as linhas:
 > #listen_addresses = 'localhost'
+>
 > datestyle = 'iso, mdy' 	
 ### Respectivamente para:
 > listen_addresses = '*'
+> 
 > datestyle = 'iso, dmy' 	
 
 ### Verifique também se a linha de timezone se encontra da seguinte forma:
