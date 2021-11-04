@@ -126,10 +126,14 @@ Após abrir o SFTP acessaremos a pasta /etc/postgresql/13/main e editaremos o ar
 
 Agora faremos alteração no arquivo postgresql.conf.
 
-### Altere a linha:
-> #listen_addresses = 'localhost' 	
-### Para:
-> listen_addresses = '*' 
+### Altere as linhas:
+> #listen_addresses = 'localhost'
+> datestyle = 'iso, mdy' 	
+### Respectivamente para:
+> listen_addresses = '*'
+> datestyle = 'iso, dmy' 	
 
+### Verifique também se a linha de timezone se encontra da seguinte forma:
+> timezone = 'America/Sao_Paulo'
 
 
