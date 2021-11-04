@@ -3,6 +3,7 @@
 - [Configuração Bitvise](#---configuração-bitvise)
 - [Utilização do Terminal](#---utilização-do-terminal)
 - [Ajuste do Timezone](#ajuste-do-timezone-)
+- [Disabilitar Firewall](#disabilitar-firewall-)
 
 ## 🖥 Conexão com a Máquina
 
