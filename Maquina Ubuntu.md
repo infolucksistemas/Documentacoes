@@ -124,4 +124,12 @@ Após abrir o SFTP acessaremos a pasta /etc/postgresql/13/main e editaremos o ar
 > IPv4 local connections:
 > host    all             all             0.0.0.0/0            md5
 
+Agora faremos alteração no arquivo postgresql.conf.
+
+### Altere a linha:
+> #listen_addresses = 'localhost' 	
+### Para:
+> listen_addresses = '*' 
+
+
 
