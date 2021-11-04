@@ -117,11 +117,11 @@ Primeiramente setaremos permissão para editar o arquivo pg_hba.conf com o segui
 Na tela de login do Bitviser acessaremos o SFTP clicando em "New SFTP window".
 Após abrir o SFTP acessaremos a pasta /etc/postgresql/13/main e editaremos o arquivo pg_hba.conf.
 
-> Altere 
-> # IPv4 local connections:
+### Altere 
+> IPv4 local connections:
 > host    all             all             127.0.0.1/32            md5
-> Para:
-> # IPv4 local connections:
+### Para:
+> IPv4 local connections:
 > host    all             all             0.0.0.0/0            md5
 
 
