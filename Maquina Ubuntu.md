@@ -86,3 +86,8 @@ echo "post_max_size = 100M"            >> /etc/php/7.4/apache2/php.ini
 echo "upload_max_filesize = 100M"      >> /etc/php/7.4/apache2/php.ini
 echo "session.gc_maxlifetime = 14000"  >> /etc/php/7.4/apache2/php.ini
 ```
+
+Quando tudo estiver configurado, restarte o apache:
+```
+service apache2 restart
+```
