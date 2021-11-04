@@ -1,4 +1,4 @@
-## 🛠 Conexão com a Máquina
+## 🖥 Conexão com a Máquina
 
 Para realizar a conexão com a máquina é necessário primeiramente realizar a instalação do [Bitvise SSH Client](https://www.bitvise.com/ssh-client-download).
 
@@ -96,4 +96,14 @@ echo "error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT & ~E_NOTICE" >> php.in
 Quando tudo estiver configurado, restarte o apache:
 ```
 service apache2 restart
+```
+
+### Instalação Postgres 🛠
+
+Para instalarmos o Postgres13 executaremos os seguintes comandos:
+```
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install postgresql-13
 ```
