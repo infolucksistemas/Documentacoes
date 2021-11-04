@@ -1,5 +1,5 @@
 ## Indice
-- [Conexão com a Maquina](#Server)
+- [Conexão com a Maquina](#-conexão-com-a-máquina)
 
 ## 🖥 Conexão com a Máquina
 
