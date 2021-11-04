@@ -5,6 +5,7 @@
 - [Ajuste do Timezone](#ajuste-do-timezone-)
 - [Desabilitar Firewall](#desabilitar-firewall-)
 - [Instalação Apache e PHP](#instalação-apache-e-php-)
+- [Configuração do Apache](#configuração-do-apache-)
 
 
 ## 🖥 Conexão com a Máquina
