@@ -3,7 +3,9 @@
 - [Configuração Bitvise](#---configuração-bitvise)
 - [Utilização do Terminal](#---utilização-do-terminal)
 - [Ajuste do Timezone](#ajuste-do-timezone-)
-- [Disabilitar Firewall](#disabilitar-firewall-)
+- [Desabilitar Firewall](#desabilitar-firewall-)
+- [Instalação Apache e PHP](#instalação-apache-e-php-)
+
 
 ## 🖥 Conexão com a Máquina
 
@@ -53,7 +55,7 @@ date -u
 ```
 "Date" trará o timezone que foi setado e "date -u" o timezone internacional.
 
-### Disabilitar Firewall ⚙
+### Desabilitar Firewall ⚙
 
 Para que mais para frente na instalação do postgres e afins não precisemos abrir portas no firewall o desabilitaremos 
 
