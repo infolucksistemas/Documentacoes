@@ -120,6 +120,7 @@ Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php 
 
 Agora configuraremos os arquivos do host, acesse a seguinte pasta: 
 > /etc/apache2/sites-available/example.com.conf
+
 As modificações serão realizadas de acordo com as necessidades atuais 
 ```
 <VirtualHost *:80> #Porta 
