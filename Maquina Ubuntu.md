@@ -151,8 +151,8 @@ sudo apt-get -y install postgresql-13
 
 Agora editaremos o arquivo `pg_hba.conf` pelo NANO.
 
-> ALGUNS COMANDOS DO NANO:
-> 
+#### ALGUNS COMANDOS DO NANO:
+
 > ALT + H -> Pesquisar Palavras
 > 
 > CTRL + O -> Salvar
