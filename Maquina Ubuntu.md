@@ -148,13 +148,17 @@ sudo apt-get -y install postgresql-13
 ```
 
 ### Configuração do Postgres ⚙
-Primeiramente setaremos permissão para editar o arquivo `pg_hba.conf` com o seguinte comando:
-```
- sudo chown -R $USER:$USER /etc/postgresql/13/main
-```
 
-Na tela de login do Bitviser acessaremos o SFTP clicando em "New SFTP window".
-Após abrir o SFTP acessaremos a pasta /etc/postgresql/13/main e editaremos o arquivo `pg_hba.conf`.
+Agora editaremos o arquivo `pg_hba.conf` pelo NANO.
+
+> ALGUNS COMANDOS DO NANO:
+> ALT + H -> Pesquisar Palavras
+> CTRL + O -> Salvar
+> CTRL + X -> Sair 
+
+```
+ sudo nano /etc/postgresql/13/main/pg_hba.conf
+```
 
 ### Altere a linha:
 > IPv4 local connections:
@@ -164,6 +168,10 @@ Após abrir o SFTP acessaremos a pasta /etc/postgresql/13/main e editaremos o ar
 > host    all             all             0.0.0.0/0            md5
 
 Agora faremos alteração no arquivo `postgresql.conf`.
+
+```
+ sudo nano /etc/postgresql/13/main/postgresql.conf
+```
 
 ### Altere as linhas:
 > #listen_addresses = 'localhost'
