@@ -118,6 +118,17 @@ service apache2 restart
 Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta **/var/www/html** usando o SFTP.
 ![Config www](sftp_html.png)
 
+Agora configuraremos os arquivos do host, acesse a seguinte pasta: 
+> /etc/apache2/sites-available/example.com.conf
+As modificações serão realizadas de acordo com as necessidades atuais 
+```
+<VirtualHost *:80> #Porta 
+    ServerAdmin webmaster@localhost #Onde será recebido os e-mails
+    DocumentRoot /var/www/html - #Pasta onde se encontra nossa aplicação php
+    ErrorLog ${APACHE_LOG_DIR}/error.log #Default
+    CustomLog ${APACHE_LOG_DIR}/access.log combined #Default
+</VirtualHost>
+```
 ### Instalação do Postgres 🛠
 
 Para instalarmos o Postgres13 executaremos os seguintes comandos:
