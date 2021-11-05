@@ -91,6 +91,41 @@ sudo a2enmod rewrite
 sudo a2enmod php7.4
 ```
 
+Instalaremos o PDO:
+```
+sudo apt install php-pgsql
+```
+
+E por fim o Composer:
+```
+sudo apt update
+```
+```
+sudo apt install php-cli unzip
+```
+Certifique-se de estar em seu diretório home. Em seguida, baixe o instalador usando o curl:
+```
+cd ~
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+```
+Em seguida, vamos verificar se o instalador baixado corresponde ao hash SHA-384:
+```
+HASH=`curl -sS https://composer.github.io/installer.sig`
+```
+Se você quiser verificar o valor obtido, execute:
+```
+echo $HASH
+```
+Agora, execute o código PHP a seguir, para verificar se o script de instalação está seguro para ser executado:
+```
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+```
+Você verá o seguinte resultado:
+```
+Installer verified
+```
+Se a saída diz `Installer corrupt`,você precisará baixar o script de instalação novamente e verificar se você está usando o hash correto. Em seguida, repita o processo de verificação. Quando você tiver um instalador verificado, você pode continuar.
+
 **(Opcional)** É possível ajustar algumas configurações do PHP, como habilitar a exibição de log de erros, aumentar o limite de uso de RAM, o tempo de execução, o tempo de sessão, e definir limites de upload.
 
 ```
