@@ -159,6 +159,8 @@ Agora editaremos o arquivo `pg_hba.conf` pelo NANO.
 > 
 > CTRL + X -> Sair 
 
+Digite:
+
 ```
  sudo nano /etc/postgresql/13/main/pg_hba.conf
 ```
