@@ -7,6 +7,7 @@
 - [Instalação Apache e PHP](#instalação-apache-e-php-)
 - [Configuração do Apache](#configuração-do-apache-)
 - [Instalação do Postgres](#instalação-do-postgres-)
+- [Configuração do Postgres](#configuração-do-postgres-)
 
 
 ## 🖥 Conexão com a Máquina
