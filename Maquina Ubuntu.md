@@ -126,6 +126,7 @@ Output
 Installer verified
 ```
 Se a saída diz `Installer corrupt`,você precisará baixar o script de instalação novamente e verificar se você está usando o hash correto. Em seguida, repita o processo de verificação. Quando você tiver um instalador verificado, você pode continuar.
+
 Para instalar o composer globalmente, use o seguinte comando que baixará e instalará o Composer como um comando disponível em todo o sistema chamado composer, sob `/usr/local/bin`:
 ```
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
