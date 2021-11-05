@@ -124,7 +124,7 @@ Agora configuraremos os arquivos do host, acesse a seguinte pasta:
 As modificações serão realizadas de acordo com as necessidades atuais 
 ```
 <VirtualHost *:80>                                  #Porta 
-    ServerAdmin webmaster@localhost                 #Onde será recebido os e-mails
+    ServerAdmin infoluck@infoluck.com.br            #Onde será recebido os e-mails
     DocumentRoot /var/www/html                      #Pasta onde se encontra nossa aplicação php
     ServerName exemplo.com                          #Domínio base
     ServerAlias www.exemplo.com                     #Define os outros nomes que devem corresponder como se fossem o nome base
