@@ -118,7 +118,10 @@ service apache2 restart
 ```
 ***
 ### Configuração do Apache ⚙
-
+Primeiro setaremos permissão para modificar a pasta `/var/www/`:
+```
+sudo chown -R $USER:$USER "/var/www/"
+``` 
 Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta `/var/www/html` usando o SFTP.
 ![Config www](sftp_html.png)
 
@@ -190,5 +193,7 @@ Agora faremos alteração no arquivo `postgresql.conf`.
 
 ### Verifique também se a linha de timezone se encontra da seguinte forma:
 > timezone = 'America/Sao_Paulo'
+
+
 
 
