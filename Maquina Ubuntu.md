@@ -84,9 +84,9 @@ sudo apt-get install php-soap php-xml php-curl php-opcache php-gd php-mbstring
 Em seguida, habilitaremos os módulos do apache:
 
 ```
-a2dismod mpm_event
-a2dismod mpm_worker
-a2enmod mpm_prefork
+sudo a2dismod mpm_event
+sudo a2dismod mpm_worker
+sudo a2enmod mpm_prefork
 sudo a2enmod rewrite
 sudo a2enmod php7.4
 ```
