@@ -267,6 +267,6 @@ Agora faremos alteração no arquivo `postgresql.conf`.
 ### Verifique também se a linha de timezone se encontra da seguinte forma:
 > timezone = 'America/Sao_Paulo'
 
-
-
-
+sudo -u postgres psql
+ALTER USER postgres WITH ENCRYPTED PASSWORD 'wg091514';
+systemctl restart postgresql
