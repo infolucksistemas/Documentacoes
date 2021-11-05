@@ -9,6 +9,7 @@
 - [Instalação do Postgres](#instalação-do-postgres-)
 - [Configuração do Postgres](#configuração-do-postgres-)
 
+***
 
 ## 🖥 Conexão com a Máquina
 
@@ -36,6 +37,8 @@ Já com o Bitvise instalado faremos o Log in na máquina:
 - Method = password
 - Password = root
 
+***
+
 ## **💻 - Utilização do Terminal**
 
 Para acessar o terminal é precisa clicar em **"New Terminal Console"**, nele faremos todas as configurações e instalações necessárias para a utilização da máquina.
@@ -49,7 +52,7 @@ Para ajustar o timezone digite no terminal:
 ```
 sudo dpkg-reconfigure tzdata
 ```
-Agora basta configurar para America->São-Paulo.
+Agora basta configurar para `America->São-Paulo`.
 
 Para conferir se foi setado o fuso horário correto digite:
 ```
@@ -65,6 +68,7 @@ Para que mais para frente na instalação do postgres e afins não precisemos ab
 ```
 sudo ufw disable
 ```
+***
 
 ### Instalação Apache e PHP 🔑 
 
@@ -112,10 +116,10 @@ Quando tudo estiver configurado, restarte o apache:
 ```
 service apache2 restart
 ```
-
+***
 ### Configuração do Apache ⚙
 
-Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta **/var/www/html** usando o SFTP.
+Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta `/var/www/html` usando o SFTP.
 ![Config www](sftp_html.png)
 
 Agora configuraremos os arquivos do host, acesse a seguinte pasta: 
@@ -132,6 +136,7 @@ As modificações serão realizadas de acordo com as necessidades atuais
     CustomLog ${APACHE_LOG_DIR}/access.log combined #Default
 </VirtualHost>
 ```
+***
 ### Instalação do Postgres 🛠
 
 Para instalarmos o Postgres13 executaremos os seguintes comandos:
@@ -143,13 +148,13 @@ sudo apt-get -y install postgresql-13
 ```
 
 ### Configuração do Postgres ⚙
-Primeiramente setaremos permissão para editar o arquivo pg_hba.conf com o seguinte comando:
+Primeiramente setaremos permissão para editar o arquivo `pg_hba.conf` com o seguinte comando:
 ```
  sudo chown -R $USER:$USER /etc/postgresql/13/main
 ```
 
 Na tela de login do Bitviser acessaremos o SFTP clicando em "New SFTP window".
-Após abrir o SFTP acessaremos a pasta /etc/postgresql/13/main e editaremos o arquivo pg_hba.conf.
+Após abrir o SFTP acessaremos a pasta /etc/postgresql/13/main e editaremos o arquivo `pg_hba.conf`.
 
 ### Altere a linha:
 > IPv4 local connections:
@@ -158,7 +163,7 @@ Após abrir o SFTP acessaremos a pasta /etc/postgresql/13/main e editaremos o ar
 > IPv4 local connections:
 > host    all             all             0.0.0.0/0            md5
 
-Agora faremos alteração no arquivo postgresql.conf.
+Agora faremos alteração no arquivo `postgresql.conf`.
 
 ### Altere as linhas:
 > #listen_addresses = 'localhost'
