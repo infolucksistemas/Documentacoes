@@ -126,6 +126,8 @@ As modificações serão realizadas de acordo com as necessidades atuais
 <VirtualHost *:80> #Porta 
     ServerAdmin webmaster@localhost #Onde será recebido os e-mails
     DocumentRoot /var/www/html - #Pasta onde se encontra nossa aplicação php
+    ServerName exemplo.com #Domínio base
+    ServerAlias www.exemplo.com #Define os outros nomes que devem corresponder como se fossem o nome base
     ErrorLog ${APACHE_LOG_DIR}/error.log #Default
     CustomLog ${APACHE_LOG_DIR}/access.log combined #Default
 </VirtualHost>
