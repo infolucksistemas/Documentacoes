@@ -247,7 +247,7 @@ Digite:
 > host    all             all             127.0.0.1/32            md5
 ### Para:
 > IPv4 local connections:
-> host    all             all             0.0.0.0/0            md5
+> host    all             all             0.0.0.0/0            trust
 
 Agora faremos alteração no arquivo `postgresql.conf`.
 
@@ -267,17 +267,21 @@ Agora faremos alteração no arquivo `postgresql.conf`.
 ### Verifique também se a linha de timezone se encontra da seguinte forma:
 > timezone = 'America/Sao_Paulo'
 
-Depois de ter configurados os arquivos alteraremos a senha do postgres:
+Depois de ter configurados os arquivos alteraremos a senha do postgres, execute um comando por vez:
 
+Alterar senha do serviço:
 ```
 sudo passwd postgres
 ```
+Acessar serviço do postgres:
 ```
 sudo -u postgres psql
 ```
+Alterar senha do banco:
 ```
 ALTER USER postgres WITH ENCRYPTED PASSWORD 'wg091514';
 ```
+Reiniciar o serviço do postgres:
 ```
 systemctl restart postgresql
 ```
