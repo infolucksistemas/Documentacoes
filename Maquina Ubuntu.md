@@ -6,8 +6,10 @@
 - [Desabilitar Firewall](#desabilitar-firewall-)
 - [Instalação Apache e PHP](#instalação-apache-e-php-)
 - [Configuração do Apache](#configuração-do-apache-)
+- [Limpar sujeiras projeto](#limpar-sujeiras-da-cópia-do-projeto-)
 - [Instalação do Postgres](#instalação-do-postgres-)
 - [Configuração do Postgres](#configuração-do-postgres-)
+
 
 ***
 
