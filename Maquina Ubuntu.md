@@ -199,12 +199,16 @@ sudo groupadd permapache
 sudo usermod -a -G permapache www-data
 sudo usermod -a -G permapache $USER 
 sudo chgrp -R permapache /var/www
-sudo chgrp -R permapache /etc/
 sudo chmod -R 777 /var/www
-sudo chmod 777 /etc/apache2/apache2.conf
 ``` 
 Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta `/var/www/html` usando o SFTP.
 ![Config www](sftp_html.png)
+
+Após enviar o projeto de novamente a permissão para a pasta `/var/www/`:
+```
+sudo chgrp -R permapache /var/www
+sudo chmod -R 777 /var/www
+``` 
 
 Agora acesse o seguinte arquivo `/etc/apache2/apache2.conf`:
 
