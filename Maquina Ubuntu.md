@@ -240,6 +240,7 @@ Para:
 >    
 > </Directory >
 
+![Configuração Apache](Images/confApache.png)
 
 ### Limpar sujeiras da cópia do projeto 🧹
 
