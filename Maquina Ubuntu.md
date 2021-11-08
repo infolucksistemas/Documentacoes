@@ -231,6 +231,15 @@ sudo apt-get -y install postgresql-13
 
 Agora editaremos o arquivo `pg_hba.conf` pelo NANO.
 
+Primeiro setaremos permissão para modificar a pasta `/etc/postgresql/13/main/`:
+```
+sudo groupadd permpostgres
+sudo usermod -a -G permpostgres postgres
+sudo usermod -a -G permpostgres $USER 
+sudo chgrp -R permpostgres /etc/postgresql/13/main/
+sudo chmod -R 777 /etc/postgresql/13/main/
+``` 
+
 #### ALGUNS COMANDOS DO NANO:
 > CTRL + W -> Pesquisar Palavras
 >
