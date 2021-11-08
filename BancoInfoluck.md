@@ -8,7 +8,7 @@
 
 
 ### Tabela 1 
- Ligado ao [Teste 2](#tabela-2)
+ <font color='red'>Ligado ao [Teste 2](#tabela-2)</font>
  
 ### Tabela 2
  Ligado ao [Teste 1](#tabela-1)
