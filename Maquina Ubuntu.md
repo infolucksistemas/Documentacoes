@@ -208,17 +208,27 @@ Agora configuraremos os arquivos do host, acesse a seguinte pasta:
 > /etc/apache2
 
 Modifique de:
-><Directory /var/www/>
+> <Directory /var/www/>
+>
 >    Options Indexes FollowSymLinks
+>    
 >    AllowOverride none
+>    
 >    Require all granted
-></Directory>
+>    
+> </Directory >
+> 
 Para:
-><Directory /var/www/>
+> <Directory /var/www/>
+>
 >    Options Indexes FollowSymLinks
+>    
 >    AllowOverride All
+>    
 >    Require all granted
-></Directory>
+>    
+> </Directory >
+> 
 
 ***
 ### Instalação do Postgres 🛠
