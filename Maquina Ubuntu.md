@@ -341,7 +341,7 @@ ALTER USER postgres WITH ENCRYPTED PASSWORD 'wg091514';
 ```
 Reiniciar o serviço do postgres:
 ```
-systemctl restart postgresql
+sudo systemctl restart postgresql
 ```
 
 
