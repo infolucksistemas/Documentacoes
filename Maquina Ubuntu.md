@@ -227,8 +227,27 @@ Para:
 >    Require all granted
 >    
 > </Directory >
-> 
 
+
+### Limpar sujeiras da cópia do projeto 🧹
+
+Acesse o caminho `/var/www/html/app` para instalarmos o composer dentro do projeto:
+```
+cd /var/www/html/app
+composer install
+```
+Limparemos as sujeiras da cópia do projeto:
+```
+cd /var/www/html/app
+sudo php artisan route:clear
+sudo php artisan view:clear
+sudo php artisan route:cache
+sudo php artisan clear-compiled
+sudo php artisan config:cache
+sudo php artisan config:clear
+sudo composer dump-autoload
+sudo systemctl restart apache2
+```
 ***
 ### Instalação do Postgres 🛠
 
@@ -312,18 +331,4 @@ Reiniciar o serviço do postgres:
 systemctl restart postgresql
 ```
 
-### Limpar sujeiras da cópia do projeto 🧹
 
-Acesse o caminho `caminho do app`:
-
-
-```
-php artisan route:clear
-php artisan view:clear
-php artisan route:cache
-php artisan clear-compiled
-php artisan config:cache
-php artisan config:clear
-composer dump-autoload
-sudo systemctl restart apache2
-```
