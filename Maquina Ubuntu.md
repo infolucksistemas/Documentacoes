@@ -271,7 +271,6 @@ Depois de ter configurados os arquivos alteraremos a senha do postgres:
 
 ```
 sudo passwd postgres
-
 ```
 ```
 sudo -u postgres psql
