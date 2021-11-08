@@ -24,6 +24,4 @@
  
 ## Tabela 6
  Ligado ao [Teste 5](#tabela-5)
- 
-## Tabela 7
- Ligado ao [Teste 6](#tabela-6)
+
