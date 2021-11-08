@@ -1,10 +1,10 @@
 Índice
 - [Tabela 1](#tabela-1)
 - [Tabela 2](#tabela-2)
-- [Tabela 2](#tabela-3)
-- [Tabela 2](#tabela-4)
-- [Tabela 2](#tabela-5)
-- [Tabela 2](#tabela-6)
+- [Tabela 3](#tabela-3)
+- [Tabela 4](#tabela-4)
+- [Tabela 5](#tabela-5)
+- [Tabela 6](#tabela-6)
 
 
 ## Tabela 1 
