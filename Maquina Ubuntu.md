@@ -193,7 +193,11 @@ service apache2 restart
 ### Configuração do Apache ⚙
 Primeiro setaremos permissão para modificar a pasta `/var/www/`:
 ```
-sudo chown -R $USER:$USER "/var/www/"
+sudo groupadd permapache
+sudo usermod -a -G permapache www-data
+sudo usermod -a -G permapache $USER 
+sudo chgrp -R permapache /var/www
+sudo chmod -R 777 /var/www
 ``` 
 Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta `/var/www/html` usando o SFTP.
 ![Config www](sftp_html.png)
