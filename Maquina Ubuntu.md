@@ -115,7 +115,7 @@ Em seguida, vamos verificar se o instalador baixado corresponde ao hash SHA-384:
 HASH=`curl -sS https://composer.github.io/installer.sig`
 ```
 Se você quiser verificar o valor obtido, execute:
-```diff
+```
 echo $HASH
 ```
 Agora, execute o código PHP a seguir, para verificar se o script de instalação está seguro para ser executado:
