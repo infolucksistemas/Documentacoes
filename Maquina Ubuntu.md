@@ -189,7 +189,7 @@ echo "error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT & ~E_NOTICE" >> php.in
 
 Quando tudo estiver configurado, restarte o apache:
 ```
-service apache2 restart
+sudo service apache2 restart
 ```
 ***
 ### Configuração do Apache ⚙
@@ -215,7 +215,7 @@ Agora acesse o seguinte arquivo `/etc/apache2/apache2.conf`:
 Digite:
 
 ```
- sudo nano /etc/apache2/apache2.conf
+sudo nano /etc/apache2/apache2.conf
 ```
 
 Modifique de:
@@ -297,7 +297,7 @@ sudo chmod -R 777 /etc/postgresql/13/main/
 Digite:
 
 ```
- sudo nano /etc/postgresql/13/main/pg_hba.conf
+sudo nano /etc/postgresql/13/main/pg_hba.conf
 ```
 
 ### Altere a linha:
@@ -310,7 +310,7 @@ Digite:
 Agora faremos alteração no arquivo `postgresql.conf`.
 
 ```
- sudo nano /etc/postgresql/13/main/postgresql.conf
+sudo nano /etc/postgresql/13/main/postgresql.conf
 ```
 
 ### Altere as linhas:
