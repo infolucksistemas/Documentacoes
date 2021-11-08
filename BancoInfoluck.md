@@ -25,5 +25,4 @@
 ### Tabela 6
  Ligado ao [Teste 5](#tabela-5)
  
- <span style="color:red">word</span>
 
