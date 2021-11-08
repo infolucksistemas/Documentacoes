@@ -204,8 +204,7 @@ sudo chmod -R 777 /etc/
 Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta `/var/www/html` usando o SFTP.
 ![Config www](sftp_html.png)
 
-Agora configuraremos os arquivos do host, acesse a seguinte pasta: 
-> /etc/apache2
+Agora acesse o seguinte arquivo `/etc/apache2/apache2.conf`:
 
 Modifique de:
 > <Directory /var/www/>
