@@ -46,7 +46,7 @@ Já com o Bitvise instalado faremos o Log in na máquina:
 Para acessar o terminal é precisa clicar em **"New Terminal Console"**, nele faremos todas as configurações e instalações necessárias para a utilização da máquina.
 ###
 
-![Acessar terminal](acess_terminal_att.png)
+![Acessar terminal](Images/acess_terminal_att.png)
 
 ### Ajuste do Timezone ⏰
 
@@ -202,7 +202,7 @@ sudo chgrp -R permapache /var/www
 sudo chmod -R 777 /var/www
 ``` 
 Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta `/var/www/html` usando o SFTP.
-![Config www](sftp_html.png)
+![Config www](Images/sftp_html.png)
 
 Após enviar o projeto dê novamente a permissão para a pasta `/var/www/`:
 ```
