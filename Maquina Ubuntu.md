@@ -236,7 +236,7 @@ Acesse o caminho `/var/www/html/app` para instalarmos o composer dentro do proje
 cd /var/www/html/app
 composer install
 ```
-Limparemos as sujeiras da cópia do projeto:
+Limparemos as sujeiras da cópia do projeto (Execute um comando por vez):
 ```
 cd /var/www/html/app
 sudo php artisan route:clear
