@@ -197,25 +197,29 @@ sudo groupadd permapache
 sudo usermod -a -G permapache www-data
 sudo usermod -a -G permapache $USER 
 sudo chgrp -R permapache /var/www
+sudo chgrp -R permapache /etc/
 sudo chmod -R 777 /var/www
+sudo chmod -R 777 /etc/
 ``` 
 Para subirmos o projeto no localhost deveremos enviar a pasta do projeto em php para dentro da pasta `/var/www/html` usando o SFTP.
 ![Config www](sftp_html.png)
 
 Agora configuraremos os arquivos do host, acesse a seguinte pasta: 
-> /etc/apache2/sites-available/example.com.conf
+> /etc/apache2
 
-As modificações serão realizadas de acordo com as necessidades atuais 
-```
-<VirtualHost *:80>                                  #Porta 
-    ServerAdmin infoluck@infoluck.com.br            #Onde será recebido os e-mails
-    DocumentRoot /var/www/html                      #Pasta onde se encontra nossa aplicação php
-    ServerName exemplo.com                          #Domínio base (Opcional)
-    ServerAlias www.exemplo.com                     #Define os outros nomes que devem corresponder como se fossem o nome base (Opcional)
-    ErrorLog ${APACHE_LOG_DIR}/error.log            #Default
-    CustomLog ${APACHE_LOG_DIR}/access.log combined #Default
-</VirtualHost>
-```
+Modifique de:
+><Directory /var/www/>
+>    Options Indexes FollowSymLinks
+>    AllowOverride none
+>    Require all granted
+></Directory>
+Para:
+><Directory /var/www/>
+>    Options Indexes FollowSymLinks
+>    AllowOverride All
+>    Require all granted
+></Directory>
+
 ***
 ### Instalação do Postgres 🛠
 
