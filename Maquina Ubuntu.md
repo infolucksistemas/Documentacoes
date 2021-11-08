@@ -21,7 +21,7 @@ Já com o Bitvise instalado faremos o Log in na máquina:
 
 ## **🔨 - Configuração Bitvise**
 
-### - Aba Login
+### Aba Login
 
 #### Server
 - Host = 192.168.1.104
