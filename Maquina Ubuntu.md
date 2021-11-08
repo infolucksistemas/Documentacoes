@@ -312,3 +312,19 @@ Reiniciar o serviço do postgres:
 ```
 systemctl restart postgresql
 ```
+
+### Limpar sujeiras da cópia do projeto 🧹
+
+Acesse o caminho `caminho do app`:
+
+
+```
+php artisan route:clear
+php artisan view:clear
+php artisan route:cache
+php artisan clear-compiled
+php artisan config:cache
+php artisan config:clear
+composer dump-autoload
+sudo systemctl restart apache2
+```
