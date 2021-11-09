@@ -6,10 +6,7 @@
 - [Tabela 5](#tabela-5)
 - [Tabela 6](#tabela-6)
 
-<h1>Teste</h1>
-
 ### Tabela 1 
- <font color='red'>Ligado ao [Teste 2](#tabela-2)</font>
  
 ### Tabela 2
  Ligado ao [Teste 1](#tabela-1)
