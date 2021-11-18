@@ -1,4 +1,4 @@
-## Instalação do pg_cron
+## Instalação do pg_cron 🔨
 
 Execute o comando
 
