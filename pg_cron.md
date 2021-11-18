@@ -54,7 +54,11 @@ Programe o cron para executar a tarefa todos os dias às 10h
 Você pode ver os cronogramas conforme abaixo:
 
 > postgres=# select * from cron.job;
+> 
 >  jobid |  schedule   |          command          | nodename  | nodeport |    database    |    username    | active 
+>  
 > -------+-------------+---------------------------+-----------+----------+----------------+----------------+--------
+> 
 >      1 | */2 * * * * | select insert_itn_count() | localhost |     5433 | postgres | postgres | t
+>      
 >      2 | 0 10 * * *  | VACUUM                    | localhost |     5433 | postgres | postgres       | t
