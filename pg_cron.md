@@ -68,3 +68,7 @@ SELECT * FROM cron.job;
 >   1 | */2 * * * * | select insert_itn_count() | localhost |     5433 | postgres | postgres | t
 >      
 >   2 | 0 10 * * *  | VACUUM                    | localhost |     5433 | postgres | postgres       | t
+
+Stop scheduled job 
+
+SELECT cron.unschedule(2);
