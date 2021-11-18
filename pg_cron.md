@@ -40,3 +40,21 @@ CREATE EXTENSION pg_cron;
 ```
 GRANT USAGE ON SCHEMA cron TO postgres;
 ```
+
+Agende o cron no banco de dados:
+
+Programe o cron para executar a função a cada 2 minutos 
+
+> SELECT cron.schedule('*/2 * * * *', $$select insert_itn_count()$$);
+
+Programe o cron para executar a tarefa todos os dias às 10h
+
+> SELECT cron.schedule('0 10 * * *', 'VACUUM');
+
+Você pode ver os cronogramas conforme abaixo:
+
+> postgres=# select * from cron.job;
+>  jobid |  schedule   |          command          | nodename  | nodeport |    database    |    username    | active 
+> -------+-------------+---------------------------+-----------+----------+----------------+----------------+--------
+>      1 | */2 * * * * | select insert_itn_count() | localhost |     5433 | postgres | postgres | t
+>      2 | 0 10 * * *  | VACUUM                    | localhost |     5433 | postgres | postgres       | t
