@@ -39,7 +39,7 @@ Agora faça alterações nos arquivos .conf conforme a seguir:
 Para finalizar crie a extensão `pg_cron` e conceda permissão 
 
 ```
-sudo CREATE EXTENSION pg_cron;
+CREATE EXTENSION pg_cron;
 ```
 ```
 GRANT USAGE ON SCHEMA cron TO postgres;
