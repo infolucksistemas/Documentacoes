@@ -3,7 +3,7 @@
 Execute o comando
 
 ```
-sudo apt-get -y install postgresql-10-cron
+sudo apt-get -y install postgresql-13-cron
 ```
 *** 
 Em seguida baixe o código-fonte de git `pg_cron`
