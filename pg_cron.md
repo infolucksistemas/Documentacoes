@@ -59,6 +59,6 @@ Você pode ver os cronogramas conforme abaixo:
 >  
 > -------+-------------+---------------------------+-----------+----------+----------------+----------------+--------
 > 
->      1 | */2 * * * * | select insert_itn_count() | localhost |     5433 | postgres | postgres | t
+>     1 | */2 * * * * | select insert_itn_count() | localhost |     5433 | postgres | postgres | t
 >      
->      2 | 0 10 * * *  | VACUUM                    | localhost |     5433 | postgres | postgres       | t
+>     2 | 0 10 * * *  | VACUUM                    | localhost |     5433 | postgres | postgres       | t
