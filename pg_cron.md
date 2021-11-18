@@ -69,6 +69,7 @@ SELECT * FROM cron.job;
 >      
 >   2 | 0 10 * * *  | VACUUM                    | localhost |     5433 | postgres | postgres       | t
 
-Stop scheduled job 
-
+Para parar a tarefa: 
+```
 SELECT cron.unschedule(2);
+```
