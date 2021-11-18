@@ -24,15 +24,11 @@ Agora faça alterações nos arquivos .conf conforme a seguir:
 
 > shared_preload_libraries = 'pg_cron' 
 > 
-> cron.database_name = 'postgres'
+> cron.database_name = 'menu_infoluck'
 
 `pg_hba.conf`
 
 > host  postgres  postgres   trust
-
-`pgpass`
-
-> localhost:5433:postgres:postgres:wg091514
 
 ***
 
