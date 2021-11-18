@@ -45,15 +45,21 @@ Agende o cron no banco de dados:
 
 Programe o cron para executar a função a cada 2 minutos 
 
-```SELECT cron.schedule('*/2 * * * *', $$select insert_itn_count()$$);```
+```
+SELECT cron.schedule('*/2 * * * *', $$select insert_itn_count()$$);
+```
 
 Programe o cron para executar a tarefa todos os dias às 10h
 
-```SELECT cron.schedule('0 10 * * *', 'VACUUM');```
+```
+SELECT cron.schedule('0 10 * * *', 'VACUUM');
+```
 
 Você pode ver os cronogramas conforme abaixo:
 
-```select * from cron.job;```
+```
+SELECT * FROM cron.job;
+```
 
 >  jobid |  schedule   |          command          | nodename  | nodeport |    database    |    username    | active 
 >  
