@@ -400,7 +400,7 @@ sudo iptables -L INPUT -n --line-numbers
 
 Desbloqueio de IP's:
 ```
-iptables -D INPUT 2
+sudo iptables -D INPUT 2
 ```
 
 
