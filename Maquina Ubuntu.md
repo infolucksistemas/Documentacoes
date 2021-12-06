@@ -9,6 +9,8 @@
 - [Limpar sujeiras projeto](#limpar-sujeiras-da-cópia-do-projeto-)
 - [Instalação do Postgres](#instalação-do-postgres-)
 - [Configuração do Postgres](#configuração-do-postgres-)
+- [Ip's para BlackList](#ips-para-blacklist-)
+
 
 
 ***
