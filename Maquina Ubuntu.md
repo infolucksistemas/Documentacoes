@@ -349,24 +349,43 @@ sudo systemctl restart postgresql
 > Ip's para bloqueio
 > 
 > 159.75.43.144 # China
+> 
 > 101.200.130.199 # China 
+> 
 > 120.24.99.4 # China   
+> 
 > 52.130.148.73 # China 
+> 
 > 180.108.238.135 # China
+> 
 > 159.75.43.144 # China
+> 
 > 118.193.21.186 # China
+> 
 > 220.160.86.236 # China
+> 
 > 47.113.219.22 # China
+> 
 > 35.233.62.116 # Bélgica
+> 
 > 34.140.248.32 # Bélgica
+> 
 > 130.211.54.158 # Bélgica
+> 
 > 35.195.93.98 # Bélgica 
+> 
 > 94.232.46.202 # Russia
+> 
 > 45.155.205.233 # Russia
+> 
 > 45.146.164.110 # Russia
+> 
 > 128.199.18.229 # India
+> 
 > 185.180.143.76 # Estados Unidos 
+> 
 > 118.193.31.186 # Japão
+> 
 > 185.142.236.34 # Países Baixos
 
 Comando para bloqueio de IP:
