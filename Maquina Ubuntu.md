@@ -347,9 +347,7 @@ sudo systemctl restart postgresql
 ```
 
 ### Ip's para BlackList 🚫
-
-> Ip's para bloqueio
-> 
+ 
 > 159.75.43.144 # China
 > 
 > 101.200.130.199 # China 
