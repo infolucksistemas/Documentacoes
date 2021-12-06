@@ -344,6 +344,6 @@ Reiniciar o serviço do postgres:
 sudo systemctl restart postgresql
 ```
 
-### Ip's para BlackList
+### Ip's para BlackList 🚫
 
 
