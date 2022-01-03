@@ -9,14 +9,6 @@ sudo apt-get -y install postgresql-13-cron
 Em seguida baixe o código-fonte de git `pg_cron`
 
 ```
-export PATH=/usr/local/pgsql/bin:$PATH
-wget https://github.com/citusdata/pg_cron/archive/master.zip
-unzip master
-cd pg_cron-master/
-make
-make install
-```
-***
 
 Agora faça alterações nos arquivos .conf conforme a seguir:
 
@@ -61,15 +53,3 @@ Você pode ver os cronogramas conforme abaixo:
 SELECT * FROM cron.job;
 ```
 
->  jobid |  schedule   |          command          | nodename  | nodeport |    database    |    username    | active 
->  
-> -------+-------------+---------------------------+-----------+----------+----------------+----------------+--------
-> 
->   1 | */2 * * * * | select insert_itn_count() | localhost |     5433 | postgres | postgres | t
->      
->   2 | 0 10 * * *  | VACUUM                    | localhost |     5433 | postgres | postgres       | t
-
-Para parar a tarefa: 
-```
-SELECT cron.unschedule(2);
-```
