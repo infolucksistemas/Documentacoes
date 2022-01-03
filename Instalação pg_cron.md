@@ -6,9 +6,6 @@ Execute o comando
 sudo apt-get -y install postgresql-13-cron
 ```
 *** 
-Em seguida baixe o código-fonte de git `pg_cron`
-
-```
 
 Agora faça alterações nos arquivos .conf conforme a seguir:
 
