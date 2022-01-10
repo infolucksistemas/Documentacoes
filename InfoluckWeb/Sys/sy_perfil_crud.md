@@ -31,7 +31,7 @@ Json contendo os dados do cliente
 ```
 
 #### Retorno:
-```
+
 | Coluna      | Tipo        |  Descricao           |
 | ----------- | ----------- |----------------------|
 | id      | integer       | Não informado para inserção, informar para alterações
@@ -42,5 +42,5 @@ Json contendo os dados do cliente
 | perfil   | bigint        | Descricao do Perfil
 | usuario   | boolean        | Usado para filtrar o perfil para o usuario final 
 | erro   | text        | Possivel erro gerado na execução da função
-```
+
 
