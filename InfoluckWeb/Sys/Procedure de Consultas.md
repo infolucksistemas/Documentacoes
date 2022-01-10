@@ -1,13 +1,10 @@
 ### Estrutura para filtros das pls de pesquisa:
 
-```
 A tabela alvo sera a propria PL.
 
-Ex:
-sys.sy_consulta_cliente
+Ex: `sys.sy_consulta_cliente` 
 
 ```
-
 fields: 
 [
  {field:"id"},
@@ -51,3 +48,4 @@ orders:
 
 pages:
 {page:"2",total:"100"}
+```
