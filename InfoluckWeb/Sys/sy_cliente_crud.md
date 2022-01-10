@@ -25,7 +25,7 @@ p_dados json
  - controle -    Gerado automaticamente no insert 
  - validacao -   Gerado automaticamente no insert
 
-### Pegar o retorno e aplicar a nova sessao simulando um novo login
+### Pegar o retorno e aplicar a nova sessão simulando um novo login
 
 
 pl_cliente_crud():
