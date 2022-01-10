@@ -12,16 +12,16 @@ p_dados json
 
 ### Parametro p_dados:
 
- - id -          integer Gerado no insert e obrigatorio em update e delete
- - idsessao -    Obrigatorio sempre
- - versao -      Gerado no insert e obrigatorio em update e delete
- - uuid -        Gerado no insert e obrigatorio em update e delete
- - ativo -       Gerado no insert e obrigatorio em update e delete
+ - id -          Integer gerado no insert e obrigatório em update e delete
+ - idsessao -    Obrigatório sempre
+ - versao -      Gerado no insert e obrigatório em update e delete
+ - uuid -        Gerado no insert e obrigatório em update e delete
+ - ativo -       Gerado no insert e obrigatório em update e delete
  - cliente -     Nome do Cliente
- - sigla -       Sigla que sera usado como nome do Schema, Gerar uma sigla com letras (ver como)
+ - sigla -       Sigla que será usado como nome do Schema, gerar uma sigla com letras (ver como)
  - logomarca -   Caminho da imagem do logo
- - datainicial - Nao informar no crud
- - datafinal -   Nao informar no crud
+ - datainicial - Não informar no crud
+ - datafinal -   Não informar no crud
  - controle -    Gerado automaticamente no insert 
  - validacao -   Gerado automaticamente no insert
 
