@@ -12,18 +12,18 @@ p_dados json
 
 ### Parametro p_dados:
 
- - id          integer Gerado no insert e obrigatorio em update e delete
- - idsessao    Obrigatorio sempre
- - versao      Gerado no insert e obrigatorio em update e delete
- - uuid        Gerado no insert e obrigatorio em update e delete
- - ativo       Gerado no insert e obrigatorio em update e delete
- - cliente     Nome do Cliente
- - sigla       Sigla que sera usado como nome do Schema, Gerar uma sigla com letras (ver como)
- - logomarca   Caminho da imagem do logo
- - datainicial Nao informar no crud
- - datafinal   Nao informar no crud
- - controle    Gerado automaticamente no insert 
- - validacao   Gerado automaticamente no insert
+ - id -          integer Gerado no insert e obrigatorio em update e delete
+ - idsessao -    Obrigatorio sempre
+ - versao -      Gerado no insert e obrigatorio em update e delete
+ - uuid -        Gerado no insert e obrigatorio em update e delete
+ - ativo -       Gerado no insert e obrigatorio em update e delete
+ - cliente -     Nome do Cliente
+ - sigla -       Sigla que sera usado como nome do Schema, Gerar uma sigla com letras (ver como)
+ - logomarca -   Caminho da imagem do logo
+ - datainicial - Nao informar no crud
+ - datafinal -   Nao informar no crud
+ - controle -    Gerado automaticamente no insert 
+ - validacao -   Gerado automaticamente no insert
 
 ### Pegar o retorno e aplicar a nova sessao simulando um novo login
 
