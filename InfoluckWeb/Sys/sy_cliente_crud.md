@@ -14,18 +14,22 @@ Json contendo os dados do cliente
 
 ### Dados contido no json:
 
- - id -          Integer gerado no insert e obrigatório em update e delete
- - idsessao -    Obrigatório sempre
- - versao -      Gerado no insert e obrigatório em update e delete
- - uuid -        Gerado no insert e obrigatório em update e delete
- - ativo -       Gerado no insert e obrigatório em update e delete
- - cliente -     Nome do Cliente
- - sigla -       Sigla que será usado como nome do Schema, gerar uma sigla com letras (ver como)
- - logomarca -   Caminho da imagem do logo
- - datainicial - Não informar no crud
- - datafinal -   Não informar no crud
- - controle -    Gerado automaticamente no insert 
- - validacao -   Gerado automaticamente no insert
+| Coluna      | Tipo        |  Descricao           |
+| ----------- | ----------- |----------------------|
+| id      | integer       | Não informado para inserção, informar para alterações
+| idsessao   | bigint        | Sessao do usuario logado
+| versao   | bigint        | Quando insercao = 0 
+| uuid   | bigint        | Gerado automaticamente
+| ativo   | bigint        | Ativo ou nao
+| cliente   | text        |Nome do Cliente
+| sigla   | text        | Sigla que será usado como nome do Schema, gerar uma sigla com letras (ver como)
+| logomarca   | text        | Caminho da imagem do logo
+| datainicial   | text        | Não informar no crud
+| datafinal   | text        | Não informar no crud
+| controle   | text        | Gerado automaticamente no insert 
+| validacao   | text        | Gerado automaticamente no insert 
+
+
 
 ### Exemplo de uso:
 ```
@@ -33,9 +37,22 @@ Json contendo os dados do cliente
 ```
 
 #### Retorno:
-```
-Retorna todos os dados da tabela e um campo chamado erro.
-```
+| Coluna      | Tipo        |  Descricao           |
+| ----------- | ----------- |----------------------|
+| id      | integer       | Não informado para inserção, informar para alterações
+| idsessao   | bigint        | Sessao do usuario logado
+| versao   | bigint        | Quando insercao = 0 
+| uuid   | bigint        | Gerado automaticamente
+| ativo   | bigint        | Ativo ou nao
+| cliente   | text        |Nome do Cliente
+| sigla   | text        | Sigla que será usado como nome do Schema, gerar uma sigla com letras (ver como)
+| logomarca   | text        | Caminho da imagem do logo
+| datainicial   | text        | Não informar no crud
+| datafinal   | text        | Não informar no crud
+| controle   | text        | Gerado automaticamente no insert 
+| validacao   | text        | Gerado automaticamente no insert 
+| erro   | text        | Possivel erro gerado na execução da função 
+
 
 ## Obs
 
