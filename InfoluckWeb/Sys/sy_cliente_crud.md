@@ -27,17 +27,16 @@ p_dados json
 
 ### Pegar o retorno e aplicar a nova sessão simulando um novo login
 
+Para cadastrar um novo cliente:
 
-pl_cliente_crud():
+- Cadastrar um novo usuario desse cliente.
+- Cadastrar o novo cliente.
+- Fazer login com esse novo usuario para pegar a sessao
+- Cadastrar Pessoa
+- Cadastrar Empresa
+- Cadastrar Endereco
+- Cadastrar Contato
 
-usuario
-cliente
-criar uma sessão com os dados anterior
-
-pessoa
-empresa
-endereco
-contato
 
 
 
