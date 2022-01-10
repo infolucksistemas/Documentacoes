@@ -14,16 +14,19 @@ Json contendo os dados do usuário
 
 ### Dados contido no json:
 
- - id -          Gerado no insert e obrigatório em update e delete
- - idsessao -    Obrigatório sempre
- - versao -      Gerado no insert e obrigatório em update e delete
- - uuid -        Gerado no insert e obrigatório em update e delete
- - ativo -       Gerado no insert e obrigatório em update e delete
- - login -       Nome do login de acesso ao sistema  
- - senha -       Senha
- - usuario -     Nome do usuario  
- - email -       Email do usuario
- - celular -     Celular do usuario
+
+| Coluna      | Tipo        |  Descricao           |
+| ----------- | ----------- |----------------------|
+| id      | integer       | Não informado para inserção, informar para alterações
+| idsessao   | bigint        | Sessao do usuario logado
+| versao   | bigint        | Quando insercao = 0 
+| uuid   | bigint        | Gerado automaticamente
+| ativo   | bigint        | Ativo ou nao
+| login   | text        |Nome do login de acesso ao sistema 
+| senha   | text        |Senha
+| usuario   | text        | Nome do usuario 
+| email   | text        | Email do usuario
+| celular   | text        | Celular do usuario
 
 ### Exemplo de uso:
 
