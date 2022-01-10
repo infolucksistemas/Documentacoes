@@ -14,13 +14,16 @@ Json contendo os dados do cliente
 
 ### Dados contido no json:
 
-- id        integer,
-- idsessao  bigint,
-- versao    integer,
-- uuid      uuid,
-- ativo     boolean,
-- perfil    text,
-- usuario   boolean
+| Coluna      | Tipo        |  Descricao           |
+| ----------- | ----------- |----------------------|
+| id      | integer       | Não informado para inserção, informar para alterações
+| idsessao   | bigint        | Sessao do usuario logado
+| versao   | bigint        | Quando insercao = 0 
+| uuid   | bigint        | Gerado automaticamente
+| ativo   | bigint        | Ativo ou nao
+| perfil   | bigint        | Descricao do Perfil
+| usuario   | boolean        | Usado para filtrar o perfil para o usuario final 
+
 
 ### Exemplo de uso:
 ```
