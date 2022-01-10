@@ -1,16 +1,16 @@
 ## sys.sy_cliente_crud
 
-**Procedure responsavel pelo cadastro de cliente da Infoluck**
+**Procedure responsável pelo cadastro de cliente da Infoluck**
 
 
-#### Parametros:
+#### Parâmetros:
 
 ```
 p_sessao bigint,
 p_dados json
 ```
 
-### Parametro p_dados:
+### Parâmetro p_dados:
 
  - id -          Integer gerado no insert e obrigatório em update e delete
  - idsessao -    Obrigatório sempre
@@ -32,7 +32,7 @@ pl_cliente_crud():
 
 usuario
 cliente
-criar uma sessao com os dados anterior
+criar uma sessão com os dados anterior
 
 pessoa
 empresa
