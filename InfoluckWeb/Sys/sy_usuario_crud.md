@@ -1,25 +1,15 @@
-## sys.sy_usuario_crud
+## sys.sy_usuario_crud(p_sessao bigint,p_dados json)
 
-###  Function responsável pela Inserção,Alteração e Deleção do cadastro de cliente da Infoluck
-
-#### Parametros:
-
-```
-p_sessao bigint,
-p_dados json
-```
+###  Função responsável pela Inserção,Alteração e Deleção do cadastro de cliente da Infoluck
 
 ### Parâmetro p_sessao:
-
 ```
 Sessao que o usuario está logado
 ```
 
 ### Parametro p_dados:
-
-
 ```
-Json contendo os dados do cliente
+Json contendo os dados do usuário
 ```
 
 ### Dados contido no json:
@@ -44,5 +34,5 @@ Json contendo os dados do cliente
 #### Retorno:
 
 ```
-Retorna todos os dados da tabela
+Retorna todos os dados da tabela e um campo chamado erro.
 ```
