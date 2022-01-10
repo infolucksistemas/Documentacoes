@@ -25,4 +25,22 @@ p_dados json
  - controle    text Gerado automaticamente no insert 
  - validacao   text  Gerado automaticamente no insert
 
+### Pegar o retorno e aplicar a nova sessao simulando um novo login
+
+
+pl_cliente_crud():
+
+usuario
+cliente
+criar uma sessao com os dados anterior
+
+pessoa
+empresa
+endereco
+contato
+
+
+
+
+
 
