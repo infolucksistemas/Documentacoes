@@ -1,7 +1,6 @@
 ## sys.sy_cliente_crud
 
-**Procedure responsável pelo cadastro de cliente da Infoluck**
-
+###  Function responsável pela Inserção,Alteração e Deleção do cadastro de cliente da Infoluck
 
 #### Parâmetros:
 
@@ -10,7 +9,19 @@ p_sessao bigint
 p_dados json
 ```
 
+### Parâmetro p_sessao:
+
+```
+Sessao que o usuario está logado
+```
+
 ### Parâmetro p_dados:
+
+```
+Json contendo os dados do cliente
+```
+
+### Dados contido no json:
 
  - id -          Integer gerado no insert e obrigatório em update e delete
  - idsessao -    Obrigatório sempre
@@ -25,8 +36,15 @@ p_dados json
  - controle -    Gerado automaticamente no insert 
  - validacao -   Gerado automaticamente no insert
 
-### Pegar o retorno e aplicar a nova sessão simulando um novo login
+### Exemplo de uso:
 
+```
+  Select * from sys.sy_cliente_crud(0,'[{Json com os dados}]') ;
+```
+
+## Obs
+
+```
 Para cadastrar um novo cliente:
 
 - Cadastrar um novo usuario desse cliente.
@@ -36,6 +54,8 @@ Para cadastrar um novo cliente:
 - Cadastrar Empresa
 - Cadastrar Endereco
 - Cadastrar Contato
+
+```
 
 
 
