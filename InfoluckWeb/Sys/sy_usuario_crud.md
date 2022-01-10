@@ -14,7 +14,6 @@ Json contendo os dados do usuário
 
 ### Dados contido no json:
 
-
 | Coluna      | Tipo        |  Descricao           |
 | ----------- | ----------- |----------------------|
 | id      | integer       | Não informado para inserção, informar para alterações
@@ -36,6 +35,16 @@ Json contendo os dados do usuário
 
 #### Retorno:
 
-```
-Retorna todos os dados da tabela e um campo chamado erro.
-```
+| Coluna      | Tipo        |  Descricao           |
+| ----------- | ----------- |----------------------|
+| id      | integer       | Não informado para inserção, informar para alterações
+| idsessao   | bigint        | Sessao do usuario logado
+| versao   | bigint        | Quando insercao = 0 
+| uuid   | bigint        | Gerado automaticamente
+| ativo   | bigint        | Ativo ou nao
+| login   | text        |Nome do login de acesso ao sistema 
+| senha   | text        |Senha
+| usuario   | text        | Nome do usuario 
+| email   | text        | Email do usuario
+| celular   | text        | Celular do usuario
+| erro   | text        | Possivel erro gerado na execução da função
