@@ -12,11 +12,11 @@ p_dados json
 
 ### Parametro p_dados:
 
- - id -          Gerado no insert e obrigatorio em update e delete
- - idsessao -    Obrigatorio sempre
- - versao -      Gerado no insert e obrigatorio em update e delete
- - uuid -        Gerado no insert e obrigatorio em update e delete
- - ativo -       Gerado no insert e obrigatorio em update e delete
+ - id -          Gerado no insert e obrigatório em update e delete
+ - idsessao -    Obrigatório sempre
+ - versao -      Gerado no insert e obrigatório em update e delete
+ - uuid -        Gerado no insert e obrigatório em update e delete
+ - ativo -       Gerado no insert e obrigatório em update e delete
  - login -       Nome do login de acesso ao sistema  
  - senha -       Senha
  - usuario -     Nome do usuario  
