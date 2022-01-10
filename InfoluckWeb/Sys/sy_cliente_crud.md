@@ -6,7 +6,7 @@
 #### Parâmetros:
 
 ```
-p_sessao bigint,
+p_sessao bigint
 p_dados json
 ```
 
