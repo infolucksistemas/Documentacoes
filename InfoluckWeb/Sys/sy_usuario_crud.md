@@ -22,3 +22,10 @@ p_dados json
  - usuario     nome do usuario  
  - email       email do usuario
  - celular     celular do usuario
+
+
+#### Retorno:
+
+```
+Retorna todos os dados da tabela
+```
