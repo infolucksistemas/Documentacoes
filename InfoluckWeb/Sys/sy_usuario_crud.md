@@ -1,7 +1,6 @@
 ## sys.sy_usuario_crud
 
-**Procedure responsavel pelo cadastro de usuario**
-
+###  Function responsável pela Inserção,Alteração e Deleção do cadastro de cliente da Infoluck
 
 #### Parametros:
 
@@ -10,7 +9,20 @@ p_sessao bigint,
 p_dados json
 ```
 
+### Parâmetro p_sessao:
+
+```
+Sessao que o usuario está logado
+```
+
 ### Parametro p_dados:
+
+
+```
+Json contendo os dados do cliente
+```
+
+### Dados contido no json:
 
  - id -          Gerado no insert e obrigatório em update e delete
  - idsessao -    Obrigatório sempre
@@ -23,6 +35,11 @@ p_dados json
  - email -       Email do usuario
  - celular -     Celular do usuario
 
+### Exemplo de uso:
+
+```
+  Select * from sys.sy_usuario_crud(0,'[{Json com os dados}]') ;
+```
 
 #### Retorno:
 
