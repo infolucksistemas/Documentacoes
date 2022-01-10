@@ -32,12 +32,13 @@ pl_cliente_crud():
 
 usuario
 cliente
+
 criar uma sessao com os dados anterior
 
-pessoa
-empresa
-endereco
-contato
+- pessoa
+- empresa
+- endereco
+- contato
 
 
 
