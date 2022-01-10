@@ -32,6 +32,15 @@ Json contendo os dados do cliente
 
 #### Retorno:
 ```
-Retorna todos os dados da tabela e um campo chamado erro.
+| Coluna      | Tipo        |  Descricao           |
+| ----------- | ----------- |----------------------|
+| id      | integer       | Não informado para inserção, informar para alterações
+| idsessao   | bigint        | Sessao do usuario logado
+| versao   | bigint        | Quando insercao = 0 
+| uuid   | bigint        | Gerado automaticamente
+| ativo   | bigint        | Ativo ou nao
+| perfil   | bigint        | Descricao do Perfil
+| usuario   | boolean        | Usado para filtrar o perfil para o usuario final 
+| erro   | text        | Possivel erro gerado na execução da função
 ```
 
