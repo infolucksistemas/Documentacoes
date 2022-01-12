@@ -1,10 +1,10 @@
 ## demo.cd_empresa_crud (p_sessao bigint,p_dados json)
 
-###  Função responsável pela Inserção,Alteração e Deleção do cadastro de empresa.
+###  Função responsável pela Inserção, Alteração e Deleção do cadastro de empresa.
 
 ### Parâmetro p_sessao:
 ```
-Sessao que o usuario está logado
+Sessão que o usuário está logado
 ```
 
 ### Parâmetro p_dados:
@@ -17,7 +17,7 @@ Json contendo os dados da empresa
 | Coluna      | Tipo        |  Descricao           |
 | ----------- | ----------- |----------------------|
 | id      | integer       | Não informado para inserção, informar para alterações
-| idsessao   | bigint        | Sessao do usuario logado
+| idsessao   | bigint        | Sessão do usuário logado
 | versao   | bigint        | Quando inserção = 0 
 | uuid   | bigint        | Gerado automaticamente
 | ativo   | bigint        | Ativo ou não
@@ -40,10 +40,10 @@ Json contendo os dados da empresa
 | Coluna      | Tipo        |  Descricao           |
 | ----------- | ----------- |----------------------|
 | id      | integer       | Não informado para inserção, informar para alterações
-| idsessao   | bigint        | Sessao do usuario logado
-| versao   | bigint        | Quando insercao = 0 
+| idsessao   | bigint        | Sessão do usuário logado
+| versao   | bigint        | Quando inserção = 0 
 | uuid   | bigint        | Gerado automaticamente
-| ativo   | bigint        | Ativo ou nao
+| ativo   | bigint        | Ativo ou não
 | cliente   | text        |Nome do Cliente
 | sigla   | text        | Sigla que será usado como nome do Schema, gerar uma sigla com letras (ver como)
 | logomarca   | text        | Caminho da imagem do logo
@@ -51,7 +51,7 @@ Json contendo os dados da empresa
 | datafinal   | text        | Não informar no crud
 | controle   | text        | Gerado automaticamente no insert 
 | validacao   | text        | Gerado automaticamente no insert 
-| erro   | text        | Possivel erro gerado na execução da função 
+| erro   | text        | Possível erro gerado na execução da função 
 
 
 ## Obs
@@ -59,12 +59,12 @@ Json contendo os dados da empresa
 ```
 Para cadastrar um novo cliente:
 
-- Cadastrar um novo usuario desse cliente.
+- Cadastrar um novo usuário desse cliente.
 - Cadastrar o novo cliente.
-- Fazer login com esse novo usuario para pegar a sessao
+- Fazer login com esse novo usuário para pegar a sessao
 - Cadastrar Pessoa
 - Cadastrar Empresa
-- Cadastrar Endereco
+- Cadastrar Endereço
 - Cadastrar Contato
 
 ```
