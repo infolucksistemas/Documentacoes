@@ -21,19 +21,11 @@ Json contendo os dados da empresa
 | versao   | bigint        | Quando inserção = 0 
 | uuid   | bigint        | Gerado automaticamente
 | ativo   | bigint        | Ativo ou não
-| cliente   | text        |Nome do Cliente
-| sigla   | text        | Sigla que será usado como nome do Schema, gerar uma sigla com letras (ver como)
-| logomarca   | text        | Caminho da imagem do logo
-| datainicial   | text        | Não informar no crud
-| datafinal   | text        | Não informar no crud
-| controle   | text        | Gerado automaticamente no insert 
-| validacao   | text        | Gerado automaticamente no insert 
-
-
+| idpessoa  | integer        |id do cadastro de pessooq
 
 ### Exemplo de uso:
 ```
-  Select * from sys.sy_cliente_crud(0,'[{Json com os dados}]') ;
+  Select * from demo.cd_empresa_crud(0,'[{Json com os dados}]') ;
 ```
 
 #### Retorno:
@@ -44,28 +36,21 @@ Json contendo os dados da empresa
 | versao   | bigint        | Quando inserção = 0 
 | uuid   | bigint        | Gerado automaticamente
 | ativo   | bigint        | Ativo ou não
-| cliente   | text        |Nome do Cliente
-| sigla   | text        | Sigla que será usado como nome do Schema, gerar uma sigla com letras (ver como)
-| logomarca   | text        | Caminho da imagem do logo
-| datainicial   | text        | Não informar no crud
-| datafinal   | text        | Não informar no crud
-| controle   | text        | Gerado automaticamente no insert 
-| validacao   | text        | Gerado automaticamente no insert 
+| idpessoa  | integer        |id do cadastro de pessooq
 | erro   | text        | Possível erro gerado na execução da função 
-
 
 ## Obs
 
 ```
-Para cadastrar um novo cliente:
+Para cadastrar uma empresa:
 
-- Cadastrar um novo usuário desse cliente.
-- Cadastrar o novo cliente.
-- Fazer login com esse novo usuário para pegar a sessao
-- Cadastrar Pessoa
-- Cadastrar Empresa
-- Cadastrar Endereço
+- Cadastrar primeiramente pessoa.
+- Cadastrar empresa
+- Cadastrar Endereco
 - Cadastrar Contato
+- Cadastrar Documentos
+- Cadastrar Setor
+- Cadastrar Impressoras
 
 ```
 
