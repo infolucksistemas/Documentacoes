@@ -21,7 +21,7 @@ Json contendo os dados da empresa
 | versao   | bigint        | Quando inserção = 0 
 | uuid   | bigint        | Gerado automaticamente
 | ativo   | bigint        | Ativo ou não
-| idpessoa  | integer        |id do cadastro de pessooq
+| idpessoa  | integer        |id do cadastro de pessoo
 
 ### Exemplo de uso:
 ```
@@ -36,7 +36,7 @@ Json contendo os dados da empresa
 | versao   | bigint        | Quando inserção = 0 
 | uuid   | bigint        | Gerado automaticamente
 | ativo   | bigint        | Ativo ou não
-| idpessoa  | integer        |id do cadastro de pessooq
+| idpessoa  | integer        |id do cadastro de pessoo
 | erro   | text        | Possível erro gerado na execução da função 
 
 ## Obs
