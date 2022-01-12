@@ -18,9 +18,9 @@ Json contendo os dados da empresa
 | ----------- | ----------- |----------------------|
 | id      | integer       | Não informado para inserção, informar para alterações
 | idsessao   | bigint        | Sessao do usuario logado
-| versao   | bigint        | Quando insercao = 0 
+| versao   | bigint        | Quando inserção = 0 
 | uuid   | bigint        | Gerado automaticamente
-| ativo   | bigint        | Ativo ou nao
+| ativo   | bigint        | Ativo ou não
 | cliente   | text        |Nome do Cliente
 | sigla   | text        | Sigla que será usado como nome do Schema, gerar uma sigla com letras (ver como)
 | logomarca   | text        | Caminho da imagem do logo
