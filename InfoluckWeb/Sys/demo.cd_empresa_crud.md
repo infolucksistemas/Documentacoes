@@ -21,11 +21,33 @@ Json contendo os dados da empresa
 | versao   | bigint        | Quando inserção = 0 
 | uuid   | bigint        | Gerado automaticamente
 | ativo   | bigint        | Ativo ou não
-| idpessoa  | integer        |id do cadastro de pessoo
+| idpessoa  | integer        |id do cadastro de pessoa
 
 ### Exemplo de uso:
 ```
   Select * from demo.cd_empresa_crud(0,'[{Json com os dados}]') ;
+  
+  Select * from demo.cd_empresa_crud(
+  0,
+  '{
+  "id" : 32,
+  "idsessao": 0,
+  "versao" : 1,
+  "uuid" : "9470a53d-c9b4-457d-ae9d-2c2f2d882974",
+  "ativo" : true,
+  "idpessoa" : 1
+  }'
+  ) as
+  (
+   id integer, 
+   idsessao bigint, 
+   versao integer, 
+   uuid uuid, 
+   ativo boolean,
+   idpessoa integer, 
+   erro text
+  );
+  
 ```
 
 #### Retorno:
