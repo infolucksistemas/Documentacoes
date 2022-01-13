@@ -28,8 +28,6 @@ Json contendo os dados da empresa
 
 ### Exemplo de uso:
 ```
-  Select * from demo.cd_empresa_crud(0,'[{Json com os dados}]') ;
-  
   Select * from demo.cd_empresa_crud(
   0,
   '{
