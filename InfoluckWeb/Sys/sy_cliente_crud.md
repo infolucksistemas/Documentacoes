@@ -34,6 +34,30 @@ Json contendo os dados do cliente
 ### Exemplo de uso:
 ```
   Select * from sys.sy_cliente_crud(0,'[{Json com os dados}]') ;
+  
+  SELECT * FROM sys.sy_cliente_crud(
+  0, 
+  '{"id" : 32,
+  "idsessao": 0,
+  "versao" : 1,
+  "uuid" : "9470a53d-c9b4-457d-ae9d-2c2f2d882974",
+  "ativo" : true,
+  "cliente" : "Tucao Lanches",
+  "sigla": "aaabbb123",
+  "logomarca" : "Caminho da imagem da logo"
+  }'
+  ) 
+  AS 
+  (
+  id integer, 
+  idsessao bigint, 
+  versao integer, 
+  uuid uuid, 
+  ativo boolean, 
+  cliente text,
+  erro text
+  );
+  
 ```
 
 #### Retorno:
