@@ -30,7 +30,35 @@ Json contendo os dados da pessoa
 
 ### Exemplo de uso:
 ```
-  Select * from demo.cd_pessoa_crud(0,'[{Json com os dados}]') ;
+  SELECT * FROM demo.cd_pessoa_crud(
+  0, 
+  '{
+  "id" : 32,
+  "idsessao": 0,
+  "versao" : 1,
+  "uuid" : "9470a53d-c9b4-457d-ae9d-2c2f2d882974",
+  "ativo" : true,
+  "tipopessoa" : "F",
+  "nome": "Tucao Labche",
+  "data" : "14/04/1965",
+  "foto" : "caminho da foto",
+  "idsexo" : 1
+  }'
+  ) 
+  AS 
+  (
+  id integer, 
+  idsessao bigint, 
+  versao integer, 
+  uuid uuid, 
+  ativo boolean, 
+  tipopessoa char(1), 
+  nome text, 
+  data date, 
+  foto text, 
+  idsexo integer, 
+  erro text
+  );
 ```
 
 #### Retorno:
