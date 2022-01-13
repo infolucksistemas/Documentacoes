@@ -29,7 +29,6 @@ Json contendo os dados do cliente
 ```
   Select * from sys.sy_perfil_crud(
   0,
-  '
   '{
   "id" : 32,
   "idsessao": 0,
