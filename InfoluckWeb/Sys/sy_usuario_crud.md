@@ -30,7 +30,18 @@ Json contendo os dados do usuário
 ### Exemplo de uso:
 
 ```
-  Select * from sys.sy_usuario_crud(0,'[{Json com os dados}]') ;
+  SELECT * FROM sys.sy_usuario_crud(0, '{"id" : 32,
+  "idsessao": 0,
+  "versao" : 1,
+  "uuid" : "9470a53d-c9b4-457d-ae9d-2c2f2d882974",
+  "ativo" : true,
+  "login" : "pauloinfoluck",
+  "senha": "info@luck",
+  "usuario" : "Paulo Vitor",
+  "email" : "paulo@infoluck.com.br",
+  "celular" : "19999021510"}') 
+  AS (id integer, idsessao bigint, versao integer, uuid uuid, ativo boolean, 
+  login text, senha text, usuario text, email text, celular text, erro text);
 ```
 
 #### Retorno:
