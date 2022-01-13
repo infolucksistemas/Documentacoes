@@ -41,30 +41,14 @@ Json contendo os dados da pessoa
 | versao   | bigint        | Quando insercao = 0 
 | uuid   | bigint        | Gerado automaticamente
 | ativo   | bigint        | Ativo ou nao
-| cliente   | text        |Nome do Cliente
-| sigla   | text        | Sigla que será usado como nome do Schema, gerar uma sigla com letras (ver como)
-| logomarca   | text        | Caminho da imagem do logo
-| datainicial   | text        | Não informar no crud
-| datafinal   | text        | Não informar no crud
-| controle   | text        | Gerado automaticamente no insert 
-| validacao   | text        | Gerado automaticamente no insert 
+| tipopessoa   | char(1)        |Fisica ou Juridica
+| nome   | text        |Nome ou Razao Social da pessoa
+| apelido   | text        | Apelido ou Nome Fantasia da pessoa
+| data   | date        | Data de Nascimento ou Fundação
+| foto   | text        | Url da foto
+| idsexo   | integer        | Id sexo referente a tabela sys.tb_sexo
 | erro   | text        | Possivel erro gerado na execução da função 
 
-
-## Obs
-
-```
-Para cadastrar um novo cliente:
-
-- Cadastrar um novo usuario desse cliente.
-- Cadastrar o novo cliente.
-- Fazer login com esse novo usuario para pegar a sessao
-- Cadastrar Pessoa
-- Cadastrar Empresa
-- Cadastrar Endereco
-- Cadastrar Contato
-
-```
 
 
 
