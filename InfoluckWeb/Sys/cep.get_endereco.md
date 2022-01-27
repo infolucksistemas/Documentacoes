@@ -34,7 +34,7 @@ select
 
 ### Estrutura de retorno:
 
-| Coluna      | Tipo        |  Descricao           |
+| Coluna      | Tipo        |  Descrição           |
 | ----------- | ----------- |----------------------|
 | id      | integer       | Id do endereço da consulta
 | cep   | text       | Cep informado na consulta
