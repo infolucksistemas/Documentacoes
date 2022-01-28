@@ -24,7 +24,7 @@ Json contendo os dados do cliente
 | datahora    | text        | Data e hora de login 
 | login       | text        | Login do usuário
 | senha       | text        | Senha de login do usuário
-| sucesso     | boolean     | 
+| sucesso     | boolean     | Retorno de sucesso ou falha no login
 
 
 ### Exemplo de uso:
@@ -60,15 +60,15 @@ Json contendo os dados do cliente
 
 | Coluna      | Tipo        |  Descricao           |
 | ----------- | ----------- |----------------------|
-| id      | integer       | Não informado para inserção, informar para alterações
-| idsessao   | bigint        | Sessao do usuario logado
-| versao   | integer        | Quando insercao = 0 
-| uuid   | uuid        | Gerado automaticamente
-| ativo   | boolean        | Ativo ou nao
-| datahora     | text        |Nome do Cliente
-| login   | text        | Sigla que será usado como nome do Schema, gerar uma sigla com letras (ver como)
-| senha        | text        | Caminho da imagem do logo
-| sucesso        | boolean        | Não informar no crud 
+| id          | integer     | Não informado para inserção, informar para alterações
+| idsessao    | bigint      | Sessao do usuario logado
+| versao      | integer     | Quando inserção = 0 
+| uuid        | uuid        | Gerado automaticamente
+| ativo       | boolean     | Ativo ou não
+| datahora    | text        | Data e hora de login 
+| login       | text        | Login do usuário
+| senha       | text        | Senha de login do usuário
+| sucesso     | boolean     | Retorno de sucesso ou falha no login
 
 
 
